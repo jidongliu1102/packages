@@ -84,7 +84,7 @@ CONFIGURE_ARGS += \
 	--without-mysql \
 	--without-pgsql \
 	--without-sqlite3 \
-	--without-optimizecpu
+	--with-optimizecpu
 
 ifeq ($(BUILD_VARIANT),noffmpeg)
 	CONFIGURE_ARGS += --without-ffmpeg
